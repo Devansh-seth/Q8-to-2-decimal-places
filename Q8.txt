@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    double number;
+    printf("Enter a floating-point number: ");
+    scanf("%lf", &number);
+    printf("Exponential format: %.2lf\n", number);
+    return 0;
+}
+
